@@ -1,0 +1,716 @@
+{
+	"id": "3e49e131-8b60-410d-9663-e338fd734f6c",
+	"name": "Цыганкова Анастасия Юрьевна",
+	"timestamp": "2022-04-29T13:55:26.157Z",
+	"collection_id": "20440543-982a59e1-0f97-4fcc-b614-fecc851ef2bc",
+	"folder_id": 0,
+	"environment_id": "20440543-9e1b89ef-39d4-48a6-b5a8-c1d0bae1ad5e",
+	"totalPass": 163,
+	"totalFail": 8,
+	"results": [
+		{
+			"id": "8fe58385-95e6-46b5-9e0c-71ac59794795",
+			"name": "Получение токена",
+			"time": 121,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 9,
+					"fail": 0
+				}
+			},
+			"times": [
+				126,
+				110,
+				98,
+				84,
+				98,
+				122,
+				97,
+				72,
+				121
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "f48cd007-e0bc-4d93-8a1f-bd8e360de229",
+			"name": "Создание водителя",
+			"time": 97,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Correct first_name": true,
+				"Correct last_name": true,
+				"Correct patronymic": true,
+				"Correct birth_date": true,
+				"Correct driving_experience_started": true,
+				"Correct credential_type": true,
+				"Correct number": true,
+				"Correct series": true,
+				"Correct issue_date": true,
+				"Response time is less than 300ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 9,
+					"fail": 0
+				},
+				"Correct first_name": {
+					"pass": 9,
+					"fail": 0
+				},
+				"Correct last_name": {
+					"pass": 9,
+					"fail": 0
+				},
+				"Correct patronymic": {
+					"pass": 9,
+					"fail": 0
+				},
+				"Correct birth_date": {
+					"pass": 9,
+					"fail": 0
+				},
+				"Correct driving_experience_started": {
+					"pass": 9,
+					"fail": 0
+				},
+				"Correct credential_type": {
+					"pass": 9,
+					"fail": 0
+				},
+				"Correct number": {
+					"pass": 9,
+					"fail": 0
+				},
+				"Correct series": {
+					"pass": 9,
+					"fail": 0
+				},
+				"Correct issue_date": {
+					"pass": 9,
+					"fail": 0
+				},
+				"Response time is less than 300ms": {
+					"pass": 9,
+					"fail": 0
+				}
+			},
+			"times": [
+				74,
+				82,
+				77,
+				86,
+				97,
+				125,
+				118,
+				110,
+				97
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Correct first_name": true,
+					"Correct last_name": true,
+					"Correct patronymic": true,
+					"Correct birth_date": true,
+					"Correct driving_experience_started": true,
+					"Correct credential_type": true,
+					"Correct number": true,
+					"Correct series": true,
+					"Correct issue_date": true,
+					"Response time is less than 300ms": true
+				},
+				{
+					"Status code is 201": true,
+					"Correct first_name": true,
+					"Correct last_name": true,
+					"Correct patronymic": true,
+					"Correct birth_date": true,
+					"Correct driving_experience_started": true,
+					"Correct credential_type": true,
+					"Correct number": true,
+					"Correct series": true,
+					"Correct issue_date": true,
+					"Response time is less than 300ms": true
+				},
+				{
+					"Status code is 201": true,
+					"Correct first_name": true,
+					"Correct last_name": true,
+					"Correct patronymic": true,
+					"Correct birth_date": true,
+					"Correct driving_experience_started": true,
+					"Correct credential_type": true,
+					"Correct number": true,
+					"Correct series": true,
+					"Correct issue_date": true,
+					"Response time is less than 300ms": true
+				},
+				{
+					"Status code is 201": true,
+					"Correct first_name": true,
+					"Correct last_name": true,
+					"Correct patronymic": true,
+					"Correct birth_date": true,
+					"Correct driving_experience_started": true,
+					"Correct credential_type": true,
+					"Correct number": true,
+					"Correct series": true,
+					"Correct issue_date": true,
+					"Response time is less than 300ms": true
+				},
+				{
+					"Status code is 201": true,
+					"Correct first_name": true,
+					"Correct last_name": true,
+					"Correct patronymic": true,
+					"Correct birth_date": true,
+					"Correct driving_experience_started": true,
+					"Correct credential_type": true,
+					"Correct number": true,
+					"Correct series": true,
+					"Correct issue_date": true,
+					"Response time is less than 300ms": true
+				},
+				{
+					"Status code is 201": true,
+					"Correct first_name": true,
+					"Correct last_name": true,
+					"Correct patronymic": true,
+					"Correct birth_date": true,
+					"Correct driving_experience_started": true,
+					"Correct credential_type": true,
+					"Correct number": true,
+					"Correct series": true,
+					"Correct issue_date": true,
+					"Response time is less than 300ms": true
+				},
+				{
+					"Status code is 201": true,
+					"Correct first_name": true,
+					"Correct last_name": true,
+					"Correct patronymic": true,
+					"Correct birth_date": true,
+					"Correct driving_experience_started": true,
+					"Correct credential_type": true,
+					"Correct number": true,
+					"Correct series": true,
+					"Correct issue_date": true,
+					"Response time is less than 300ms": true
+				},
+				{
+					"Status code is 201": true,
+					"Correct first_name": true,
+					"Correct last_name": true,
+					"Correct patronymic": true,
+					"Correct birth_date": true,
+					"Correct driving_experience_started": true,
+					"Correct credential_type": true,
+					"Correct number": true,
+					"Correct series": true,
+					"Correct issue_date": true,
+					"Response time is less than 300ms": true
+				},
+				{
+					"Status code is 201": true,
+					"Correct first_name": true,
+					"Correct last_name": true,
+					"Correct patronymic": true,
+					"Correct birth_date": true,
+					"Correct driving_experience_started": true,
+					"Correct credential_type": true,
+					"Correct number": true,
+					"Correct series": true,
+					"Correct issue_date": true,
+					"Response time is less than 300ms": true
+				}
+			]
+		},
+		{
+			"id": "198472b2-364f-4f3c-835e-be0f8b2e101b",
+			"name": "Создание собственника",
+			"time": 116,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 9,
+					"fail": 0
+				}
+			},
+			"times": [
+				90,
+				92,
+				98,
+				143,
+				99,
+				127,
+				104,
+				146,
+				116
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "008299de-6755-4139-a646-96ba553019de",
+			"name": "Создание страхователя",
+			"time": 159,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 9,
+					"fail": 0
+				}
+			},
+			"times": [
+				86,
+				161,
+				112,
+				115,
+				92,
+				91,
+				134,
+				118,
+				159
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "d4b56655-30b4-4e4a-a107-78a5b130069c",
+			"name": "Создание автомобиля",
+			"time": 116,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 9,
+					"fail": 0
+				}
+			},
+			"times": [
+				256,
+				112,
+				97,
+				85,
+				71,
+				122,
+				89,
+				254,
+				116
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "f5737f86-afac-456b-9198-3c82c2176711",
+			"name": "Создание объекта страхования",
+			"time": 102,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 9,
+					"fail": 0
+				}
+			},
+			"times": [
+				114,
+				68,
+				109,
+				92,
+				79,
+				89,
+				68,
+				109,
+				102
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "7a7a2377-51ba-4b0d-9f8b-ffb5c6b84ac9",
+			"name": "Создание договора",
+			"time": 1931,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 9,
+					"fail": 0
+				}
+			},
+			"times": [
+				1865,
+				2092,
+				2006,
+				1455,
+				1603,
+				2460,
+				2085,
+				1987,
+				1931
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "fe33ae38-197d-40cc-a0be-c1840b2e7988",
+			"name": "Обновление договора",
+			"time": 429,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 9,
+					"fail": 0
+				}
+			},
+			"times": [
+				441,
+				432,
+				396,
+				406,
+				348,
+				419,
+				470,
+				418,
+				429
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "fe07bab0-02c7-497d-8bdd-2a4c17239a8c",
+			"name": "Получение полного расчёта",
+			"time": 11424,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 201": false
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 8
+				}
+			},
+			"times": [
+				7406,
+				4920,
+				85,
+				12864,
+				25323,
+				73,
+				70,
+				2782,
+				11424
+			],
+			"allTests": [
+				{
+					"Status code is 201": false
+				},
+				{
+					"Status code is 201": false
+				},
+				{
+					"Status code is 201": false
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": false
+				},
+				{
+					"Status code is 201": false
+				},
+				{
+					"Status code is 201": false
+				},
+				{
+					"Status code is 201": false
+				},
+				{
+					"Status code is 201": false
+				}
+			]
+		}
+	],
+	"count": 9,
+	"totalTime": 92099,
+	"collection": {
+		"requests": [
+			{
+				"id": "8fe58385-95e6-46b5-9e0c-71ac59794795",
+				"method": "POST"
+			},
+			{
+				"id": "f48cd007-e0bc-4d93-8a1f-bd8e360de229",
+				"method": "POST"
+			},
+			{
+				"id": "198472b2-364f-4f3c-835e-be0f8b2e101b",
+				"method": "POST"
+			},
+			{
+				"id": "008299de-6755-4139-a646-96ba553019de",
+				"method": "POST"
+			},
+			{
+				"id": "d4b56655-30b4-4e4a-a107-78a5b130069c",
+				"method": "POST"
+			},
+			{
+				"id": "f5737f86-afac-456b-9198-3c82c2176711",
+				"method": "POST"
+			},
+			{
+				"id": "7a7a2377-51ba-4b0d-9f8b-ffb5c6b84ac9",
+				"method": "POST"
+			},
+			{
+				"id": "fe33ae38-197d-40cc-a0be-c1840b2e7988",
+				"method": "PATCH"
+			},
+			{
+				"id": "fe07bab0-02c7-497d-8bdd-2a4c17239a8c",
+				"method": "POST"
+			}
+		]
+	}
+}
